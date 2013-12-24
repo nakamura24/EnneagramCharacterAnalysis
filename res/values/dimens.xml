@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textView_title_textSize">28sp</dimen>
+    <dimen name="textView_about_textSize">20sp</dimen>
+    <dimen name="textView_question_textSize">18sp</dimen>
+    <dimen name="radioButton_anser_textSize">16sp</dimen>
+    <dimen name="textView_type_textSize">20sp</dimen>
+    <dimen name="textView_analyze_textSize">18sp</dimen>
+    <dimen name="textView_percent_textSize">20sp</dimen>
+
+</resources>

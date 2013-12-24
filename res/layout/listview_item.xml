@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/questionLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textView_question_textSize" />
+
+    <RadioGroup
+        android:id="@+id/anserRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/anserYesRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anserYesRadioButton"
+            android:textSize="@dimen/radioButton_anser_textSize" />
+
+        <RadioButton
+            android:id="@+id/anserNoRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anserNoRadioButton"
+            android:textSize="@dimen/radioButton_anser_textSize" />
+
+        <RadioButton
+            android:id="@+id/anserUnknownRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anserUnknownRadioButton"
+            android:textSize="@dimen/radioButton_anser_textSize" />
+    </RadioGroup>
+
+</LinearLayout>
